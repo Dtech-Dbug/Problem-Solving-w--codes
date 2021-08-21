@@ -2,7 +2,7 @@
 
 leetcode Problem solving w/ code and description.
 
-###1. two sums
+### 1. two sums
 
 Q : Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
