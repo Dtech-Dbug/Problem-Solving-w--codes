@@ -1,0 +1,23 @@
+{
+  "name": "problem-solving-w--codes",
+  "version": "1.0.0",
+  "description": "leetcode Problem solving w/ code and description.",
+  "main": "answer.js",
+  "scripts": {
+    "start": "nodemon answer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dtech-Dbug/Problem-Solving-w--codes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dtech-Dbug/Problem-Solving-w--codes/issues"
+  },
+  "homepage": "https://github.com/Dtech-Dbug/Problem-Solving-w--codes#readme",
+  "dependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
