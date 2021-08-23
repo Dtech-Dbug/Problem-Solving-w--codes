@@ -1,4 +1,4 @@
-function reverseInteger(number) {
+let reverseInteger = (number) => {
   //initialise this variable to 0. Will hold the revrse state
   let reversed = 0;
 
@@ -19,6 +19,6 @@ function reverseInteger(number) {
     num = Math.floor(num / 10);
   }
   return reversed;
-}
+};
 
-reverseInteger(7864);
+module.exports = reverseInteger;
