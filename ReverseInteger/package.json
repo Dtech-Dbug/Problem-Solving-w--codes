@@ -1,0 +1,15 @@
+{
+  "name": "reverseinteger",
+  "version": "1.0.0",
+  "description": "Given a signed 32-bit integer x, return x with its digits reversed. If reversing x causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], then return 0.",
+  "main": "reverseInteger.js",
+  "scripts": {
+    "start": "nodemon reverseInteger.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
