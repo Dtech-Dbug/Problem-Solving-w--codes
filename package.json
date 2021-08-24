@@ -4,7 +4,7 @@
   "description": "leetcode Problem solving w/ code and description.",
   "main": "answer.js",
   "scripts": {
-    "start": "nodemon reverseInteger.js"
+    "start": "nodemon compositeFunctions.js"
   },
   "repository": {
     "type": "git",
