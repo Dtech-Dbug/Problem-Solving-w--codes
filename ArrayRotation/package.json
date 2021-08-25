@@ -1,0 +1,15 @@
+{
+  "name": "arrayrotation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "arrayRotation.js",
+  "scripts": {
+    "start": "nodemon arrayRotation.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
