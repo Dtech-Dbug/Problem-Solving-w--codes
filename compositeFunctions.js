@@ -4,12 +4,14 @@
 
 const reverseInteger = require("./ReverseInteger/reverseInteger");
 const twoSums = require("./TwoSumProblem/twoSum");
+const shift = require("./ArrayRotation/arrayRotation");
 
 let compose = {
   twoSumsProblem: twoSums,
   reverseIntegerProblem: reverseInteger,
+  shift,
 };
 
 // const { twoSums } = compose;
 
-console.log(process);
+console.log(compose.shift([1, 2, 3, 4, 5], 3));
