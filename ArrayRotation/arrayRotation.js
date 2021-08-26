@@ -1,4 +1,4 @@
-const leftShift = (array, shiftIndices) => {
+const leftShift = (array, shiftIndices, shiftdirection) => {
   let indices = shiftIndices;
 
   for (j = 0; j < indices; j++) {
