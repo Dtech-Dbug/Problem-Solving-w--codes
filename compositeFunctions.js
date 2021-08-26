@@ -12,6 +12,4 @@ let compose = {
   shift,
 };
 
-// const { twoSums } = compose;
-
 console.log(compose.shift([1, 2, 3, 4, 5], 3));
