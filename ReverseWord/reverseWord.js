@@ -1,6 +1,10 @@
+// ? npm pack for CLIinterface
 const readlineSync = require("readline-sync");
+
+// ? npm pack for CLI cmd colors
 const chalk = require("chalk");
 
+// TODO : reverse word using simple for loop
 function reverseWord(word) {
   //* create an emptyy array to store the user input
   let arr = [];
@@ -12,4 +16,19 @@ function reverseWord(word) {
   console.log(arr.reverse().join(""));
 }
 
-reverseWord("world");
+// TODO : using methods
+const mirrorWords = (word) => {
+  // ! step1: turn the word(string) into a array of strings using the split method
+  // * sample out put = ['h','e' , 'l', 'l', 'o']
+  let slices = word.split("");
+
+  // ! Step2 : to reverse the array of strings, use reverse() method
+  //* sample : ['o', 'l', 'l', 'e', 'h']
+
+  // ! join the array of strings using the join operator. alterateively you can also use tostring() method
+  let reversed = slices.reverse().join("");
+  console.log(reversed);
+  return reversed;
+};
+
+mirrorWords("engineer");
