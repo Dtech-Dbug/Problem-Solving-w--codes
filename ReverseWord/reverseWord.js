@@ -1,4 +1,4 @@
-// ? npm pack for CLIinterface
+// ? npm pack for CLI-interface
 const readlineSync = require("readline-sync");
 
 // ? npm pack for CLI cmd colors
@@ -36,4 +36,4 @@ module.exports = {
   mirrorWords,
 };
 
-console.log(module);
+console.log(module.path);
