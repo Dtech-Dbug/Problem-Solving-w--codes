@@ -27,7 +27,7 @@ const mirrorWords = (word) => {
 
   // ! join the array of strings using the join operator. alterateively you can also use tostring() method
   let reversed = slices.reverse().join("");
-  console.log(reversed);
+
   return reversed;
 };
 
