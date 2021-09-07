@@ -31,4 +31,9 @@ const mirrorWords = (word) => {
   return reversed;
 };
 
-mirrorWords("engineer");
+module.exports = {
+  reverseWord,
+  mirrorWords,
+};
+
+console.log(module);
