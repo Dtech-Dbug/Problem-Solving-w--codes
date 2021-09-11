@@ -27,4 +27,4 @@ const priceCalculator = (itemName, unitPrice, quantity, discount) => {
   }
 };
 
-console.table(priceCalculator("Bread", 200, 8, 90));
+module.exports = priceCalculator;
