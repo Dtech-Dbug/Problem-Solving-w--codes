@@ -19,4 +19,4 @@ let compose = {
 
 // console.log(compose.shift([1, 2, 3, 4, 5], 3));
 // console.log(compose.mirrorWords("Engineer"));
-console.log(compose.priceCalculator("Eggs", 6, 20));
+// console.log(compose.priceCalculator("Eggs", 6, 20));
