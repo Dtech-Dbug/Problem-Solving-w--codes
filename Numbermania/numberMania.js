@@ -28,9 +28,5 @@ class numbersFunction {
 
 // console.log(checkNumber);
 const numberMania = new numbersFunction();
-console.log(numberMania);
-console.log(numberMania.isEven(7));
-console.log(numberMania.isOdd(6));
 
 module.exports = numberMania;
-console.log(module);
