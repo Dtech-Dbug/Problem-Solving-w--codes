@@ -1,6 +1,6 @@
 //check a number is prime odd or even
 
-class checkNumber {
+class numbersFunction {
   constructor() {
     this.tool = "Javascript & Nodejs";
     this.type = "modules";
@@ -27,7 +27,7 @@ class checkNumber {
 }
 
 // console.log(checkNumber);
-const A = new checkNumber();
-console.log(A);
-console.log(A.isEven(7));
-console.log(A.isOdd(6));
+const numberMania = new numbersFunction();
+console.log(numberMania);
+console.log(numberMania.isEven(7));
+console.log(numberMania.isOdd(6));
