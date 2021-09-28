@@ -1,8 +1,9 @@
-const readlineSync = require("readline-sync");
+// hedder to enable input take
+// const readlineSync = require("readline-sync");
+import readlineSync from "readline-sync";
 
-let userInput: string = readlineSync.question("char: \n");
+// take character
+let userInput: string = readlineSync.q;
 
-// console.log(userInput.charCodeAt(0)); length
-
-let LENGTh: number = userInput.length;
-console.log(LENGTh);
+//show character's ASCII value
+console.log(userInput.charCodeAt(0));
