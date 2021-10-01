@@ -1,0 +1,14 @@
+{
+  "name": "hammingdistance",
+  "version": "1.0.0",
+  "description": "Calculates the Hamming Distance between two strings",
+  "main": "hammingDistance.js",
+  "scripts": {
+    "start": "nodemon hammingDistance.js"
+  },
+  "author": "elenakout",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
