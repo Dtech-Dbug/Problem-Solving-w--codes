@@ -80,6 +80,35 @@ algorithm partition(A, lo, hi) is
   return i // the pivot index
 ```
 
+### Code `Python`
+``` py
+def partition(arr, start, end):
+    pivot = arr[start]
+    i = start
+    j = i + 1
+
+    while j <= end:
+        if arr[j] < pivot:
+            i += 1
+            temp = arr[j]
+            arr[j] = arr[i]
+            arr[i] = temp
+        j += 1
+
+    temp = arr[start]
+    arr[start] = arr[i]
+    arr[i] = temp
+
+    return i
+
+
+def quickSort(arr, start, end):
+    if start <= end:
+        index = partition(arr, start, end)
+        quickSort(arr, start, index - 1)
+        quickSort(arr, index + 1, end)
+
+```
 
 #### ⏲️ Time Complexities:
 `Best : O(N log n)`
