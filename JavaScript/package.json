@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/Dtech-Dbug/Problem-Solving-w--codes#readme",
   "dependencies": {
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.13"
   }
 }

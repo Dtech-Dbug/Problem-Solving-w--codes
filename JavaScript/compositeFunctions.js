@@ -5,7 +5,7 @@
 const reverseInteger = require("./ReverseInteger/reverseInteger");
 const twoSums = require("./TwoSumProblem/twoSum");
 const shift = require("./ArrayRotation/arrayRotation");
-const { reverseWord, mirrorWords } = require("./ReverseWord/reverseWord");
+const { reverseWord, mirrorWords } = require("../ReverseWord/reverseWord");
 const priceCalculator = require("./MarketCalculator/marketCalculator");
 const factorial = require("./Factorial/factorial");
 const numberMania = require("./Numbermania/numberMania");
