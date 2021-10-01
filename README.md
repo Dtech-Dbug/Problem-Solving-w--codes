@@ -4,7 +4,7 @@
 
 - Just make sure to keep a proper file structure.
 - example, if you are opting python , create a folder named python first.
-- them python/<yourProgramName.py>
+- then Python/<yourProgrammeNameFolder>/<yourProgramName.py>
 
 #### How to contribute
 
